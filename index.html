@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #box1{
+    background-color:rgba(0, 0, 0, 0.407);
+    height: 40px;
+    text-align: center;
+    padding-top: 10PX;
+  }
+  a{
+      text-decoration: none;
+      padding: 20px;
+      color:rgb(128, 206, 240) ;
+      
+  }
+  a:hover{
+      background-color:black;
+      color: white;
+      border-radius: 10px;
+      padding: 10px;
+  }
+  body{
+    background-image: url("download.jpg");
+    background-size: 100%;
+  }
+  
+  #box2 {
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 10%;
+  }
+  button {
+            display: inline-block;
+            font-size: 20px;
+            background-color: goldenrod;
+            border-radius: 10px;
+            padding: 15px 30px;
+        }
+        button:hover {
+            background-color: gray;
+            color: white;
+        }
+        p {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 5vw;
+        }
+        .drop{
+          position:relative;
+          display: inline-block;
+        }
+        .drop1{
+          display: none;
+          position: absolute;
+          background-color: white;
+          min-width: 160px;
+          box-shadow: 0px 8px 160 rgb(106, 0, 255);
+        }
+        .drop1 a{
+          color:black;
+          padding:14px 18px;
+          text-decoration: none;
+          display: block;
+        }
+        .drop1 a:hover{
+          background-color: goldenrod;
+          color:white;
+        }
+        .drop:hover .drop1{
+          display: block;
+          color:pink;
+        }
+        .drop:hover>a{
+          color:rgb(255, 8, 0);
+          font-weight: bold;
+        }
+ 
+  </style>
+</head>
+<body><header>
+  <div id="box1">
+  <a href="">Home</a>
+  <a href="">Atrracrions</a>
+  <a href="">Accommodations</a>
+  <div class="drop">
+  <a href="">Cuisine </a>
+  <div class="drop1">
+    <a href="https://www.indianhealthyrecipes.com/rogan-josh/" target="rogan josh">Rogan Josh</a>
+    <a href="https://www.yummefy.com/yakhni-recipe.html"target="yakhni">Yakhni</a>
+    <a href="https://www.linsfood.com/gushtaba-kashmiri-meatballs-in-yoghurt-gravy/" target="gushtaba">Gushtaba</a>
+    <a href="https://www.indianhealthyrecipes.com/dum-aloo-recipe/">Dum Aloo</a>
+    <a href="https://thespiceadventuress.com/2016/06/17/tabakh-maaz-kashmiri-style-lamb-ribs/"target="tabak maaz">Tabak Maaz</a>
+    <a href="https://dorjeteas.com/products/kashmiri-kahwa?srsltid=AfmBOop7fJ0ybrIWfcj7eN_xVkj6w6R2uSqa0s_WWgg6a1wFebBf9CTN " target="kahwa">Kahwa</a>
+ </div>
+ </div>
+
+  <a href="">About us</a>
+  </div>
+</header>
+<div id="box2">
+  <p>KASHMIR LOCAL EXPLOSURE APPLICATION</p>
+  <button>Visit Us</button>
+</div>
+<footer id="foot">
+
+</footer>
+
+  
+</body>
+</html>
